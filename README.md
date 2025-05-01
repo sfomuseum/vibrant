@@ -1,18 +1,13 @@
 # Vibrant
 
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg)](http://godoc.org/github.com/RobCherry/vibrant)
-[![Build Status](https://travis-ci.org/RobCherry/vibrant.png)](https://travis-ci.org/RobCherry/vibrant)
-[![Report Card](https://goreportcard.com/badge/github.com/RobCherry/vibrant)](https://goreportcard.com/report/github.com/RobCherry/vibrant)
+This is a fork of the original [RobCherry/vibrant](https://github.com/RobCherry/vibrant) package. It has two meaningful changes:
 
-Vibrant is a customizable Go library for extracting colors from images.  It is largely based on Android's Palette class.
+1. The `filter.isAllowed` interface method has been renamed as `filter.IsAllowed` so it is exposed as a public method. This change has been submitted as a [pull request](https://github.com/RobCherry/vibrant/pull/4).
 
-Example usages can be found in the [documentation](http://godoc.org/github.com/RobCherry/vibrant) and in the `cli` directory`.
+2. The `sfomuseum` branch of this package has changed the default import path to be `github.com/sfomuseum/vibrant` mostly so that it's easier to import until (if) the PR for (1) is accepted.
 
-## Author
+## See also
 
-[Rob Cherry](https://github.com/RobCherry)
+* https://github.com/RobCherry/vibrant
 
-## Special Thanks
-
-* The Android team.  [Original Android Implementation](https://android.googlesource.com/platform/frameworks/support/+/master/v7/palette/src/main/java/android/support/v7/graphics)
 
