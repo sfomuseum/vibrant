@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/RobCherry/vibrant"
+	"github.com/sfomuseum/vibrant"
 	"golang.org/x/image/draw"
 	"image"
 	"image/color"

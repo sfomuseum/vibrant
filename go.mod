@@ -1,4 +1,4 @@
-module github.com/RobCherry/vibrant
+module github.com/sfomuseum/vibrant
 
 go 1.24.2
 
